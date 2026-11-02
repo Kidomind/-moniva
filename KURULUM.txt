@@ -1,0 +1,31 @@
+MONİVA · PWA KURULUMU
+
+Bu klasördeki dosyaların hepsini AYNI yere (aynı klasöre) yükle:
+  index.html, sw.js, manifest.webmanifest, icon-96.png, icon-192.png, icon-512.png,
+  icon-maskable-512.png, apple-touch-icon.png, badge-96.png
+
+1) Uygulamanın https adresinden açılması şart (bildirim ve ana ekrana ekleme
+   dosyayı çift tıklayıp açınca çalışmaz). En kolay yollar:
+   - Netlify: app.netlify.com/drop sayfasına klasörü sürükle-bırak
+   - GitHub Pages: depoya yükle, Settings > Pages'ten aç
+   - Cloudflare Pages / Firebase Hosting de olur
+
+2) Telefonda adresi aç:
+   - Android (Chrome): Ayarlar > "Uygulamayı yükle" ya da menüden "Ana ekrana ekle"
+   - iPhone (Safari): Paylaş > "Ana Ekrana Ekle", sonra ana ekrandan aç
+
+3) Ayarlar > Bildirimler > "Bildirimleri aç" > izin ver > "Test bildirimi"
+
+4) Garanti hatırlatma için: Ayarlar > "Takvime aktar" > .ics dosyasını aç.
+
+GÜNCELLEME: index.html'i yeni sürümle değiştirip yeniden yükle. Uygulama önce
+ağdan çeker, internet yoksa önbellekten açar.
+VERİ: localStorage'da, yani her adres (alan adı) için ayrıdır. Adresi değiştirirsen
+eski adresten yedek indirip yenisine geri yükle.
+
+BİLDİRİMLER (Ayarlar > Bildirimler)
+- "Bildirimleri aç" > izin ver. "Bildirim saati"ni seç (ör. 09:00).
+- "Test bildirimi" 5 saniye sonra gelir: uygulamayı arka plana al ya da ekranı kilitle, gerçek bildirimi gör.
+- Android Chrome'da uygulamayı ana ekrana yüklersen arka planda da çalışır.
+- iPhone'da bildirim için uygulama ana ekrana eklenmiş olmalı (iOS 16.4+).
+- Uygulama tamamen kapalıyken %100 garanti için "Takvime aktar (.ics)" yöntemini de kullan.
