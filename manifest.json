@@ -1,0 +1,12 @@
+{
+  "background_color": "#ffffff",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Monieva",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Monieva",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "id": "com.monieva.app"
+}
