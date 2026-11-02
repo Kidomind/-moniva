@@ -1,7 +1,7 @@
 MONİVA · PWA KURULUMU
 
 Bu klasördeki dosyaların hepsini AYNI yere (aynı klasöre) yükle:
-  index.html, sw.js, manifest.webmanifest, icon-96.png, icon-192.png, icon-512.png,
+  index.html, sw.js, manifest.json, icon-96.png, icon-192.png, icon-512.png,
   icon-maskable-512.png, apple-touch-icon.png, badge-96.png
 
 1) Uygulamanın https adresinden açılması şart (bildirim ve ana ekrana ekleme

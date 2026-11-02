@@ -1,12 +1,71 @@
 {
-  "background_color": "#ffffff",
+  "id": "./",
+  "name": "Moniva · Finansal hayatının akıllı asistanı",
+  "short_name": "Moniva",
+  "description": "Taksit, borç, bütçe ve birikim takibi. Veriler sadece bu cihazda saklanır.",
+  "lang": "tr",
   "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
   "display": "standalone",
-  "name": "Monieva",
-  "orientation": "any",
-  "scope": "/",
-  "short_name": "Monieva",
-  "start_url": "/",
-  "theme_color": "#ffffff",
-  "id": "com.monieva.app"
+  "orientation": "portrait",
+  "background_color": "#06323f",
+  "theme_color": "#0a1740",
+  "categories": [
+    "finance",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Yeni harcama",
+      "short_name": "Harcama",
+      "url": "./?add=1",
+      "icons": [
+        {
+          "src": "icon-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Taksitler",
+      "short_name": "Taksit",
+      "url": "./?go=inst",
+      "icons": [
+        {
+          "src": "icon-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "prefer_related_applications": false
 }

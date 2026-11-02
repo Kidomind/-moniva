@@ -5,7 +5,7 @@
       mesaj gönderince buradan telefon bildirimi üretilir.
    3) push: ileride sunucudan push gelirse de aynı bildirim görünümü kullanılır. */
 const V = 'moniva-shell-v3', DATA = 'tbd-data';
-const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icon-96.png', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png', 'apple-touch-icon.png', 'badge-96.png'];
+const SHELL = ['./', 'index.html', 'manifest.json', 'icon-96.png', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png', 'apple-touch-icon.png', 'badge-96.png'];
 const ICON = 'icon-192.png', BADGE = 'badge-96.png';
 
 self.addEventListener('install', e => {
