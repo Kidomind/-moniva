@@ -1,25 +1,67 @@
 {
-  "id": "./",
-  "name": "Moniva · Finansal hayatının akıllı asistanı",
+  "id": "/",
+  "name": "Moniva - Finansal hayatinin akilli asistani",
   "short_name": "Moniva",
-  "description": "Taksit, borç, bütçe ve birikim takibi. Veriler sadece bu cihazda saklanır.",
+  "description": "Taksit, borc, butce ve birikim takibi. Veriler sadece bu cihazda saklanir.",
   "lang": "tr",
   "dir": "ltr",
-  "start_url": "./",
+  "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#06323f",
+  "background_color": "#00323f",
   "theme_color": "#0a1740",
   "categories": ["finance", "productivity"],
   "icons": [
-    { "src": "icon-96.png", "sizes": "96x96", "type": "image/png", "purpose": "any" },
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ],
   "shortcuts": [
-    { "name": "Yeni harcama", "short_name": "Harcama", "url": "./?add=1", "icons": [{ "src": "icon-96.png", "sizes": "96x96", "type": "image/png" }] },
-    { "name": "Taksitler", "short_name": "Taksit", "url": "./?go=inst", "icons": [{ "src": "icon-96.png", "sizes": "96x96", "type": "image/png" }] }
+    {
+      "name": "Yeni Harcama",
+      "short_name": "Harcama",
+      "url": "./index.html?action=add",
+      "icons": [
+        {
+          "src": "icon-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Taksitler",
+      "short_name": "Taksit",
+      "url": "./index.html?action=installments",
+      "icons": [
+        {
+          "src": "icon-96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
   ]
 }
